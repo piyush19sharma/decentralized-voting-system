@@ -1,0 +1,17 @@
+{
+  "name": "decentralized-voting-system",
+  "version": "1.0.0",
+  "description": "A decentralized voting system using Auth0, Cloudflare, MongoDB, and Diamante blockchain",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",    
+    "client": "cd client && npm start"   
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "dotenv": "^8.2.0",
+    "axios": "^0.21.1",
+    "@auth0/auth0-react": "^1.4.0"
+  }
+}
